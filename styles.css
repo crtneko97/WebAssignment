@@ -1,0 +1,83 @@
+/*All kod som skrivs öppen här är för iphone 14. alltså det som är mindre än 390px 
+
+width 390px
+heigth 844px
+
+*/
+body{
+    background-image: url(iphoneroom.jpg);
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar p{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.dropbtn{
+    background-color: transparent;
+    color: black;
+    font-weight: bolder;
+    padding: 16px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 1px solid black;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: rgba(57,55,55,0.60);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: rgba(57,55,55,0.60);
+}
+main{
+    font-weight: bolder;
+    width: auto;
+    margin: 0x 100px;
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(57,55,55,0.60);
+}
+
+
+
+
+
+/*Koden nedanför ska vara för ipad. */
+@media screen and (min-width: 390px) {
+
+    /* Den här css koden ligger för saker som är större än iphone 14. 
+    Alltså allt som överstiger det som ligger utanför den här koden och har skärmen större än 390px kommer,
+    ändras till det.
+    */
+    
+}
+@media screen and (min-width: 834px){
+
+    /* Den här css koden kommer att vara för ipad */
+
+
+}
