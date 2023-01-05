@@ -155,7 +155,19 @@ main p{
     border: 2px solid white;
     border-radius: 20px;
 }
-
+.standard-room input{
+        font-family: 'Special Elite', cursive;
+        background-color: black;
+        color: white;
+        font-size: 25px;
+        border-radius: 5px;
+}
+.standard-room input:hover{
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    transition: 0.5s;
+}
 
 
 
