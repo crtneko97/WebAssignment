@@ -118,7 +118,7 @@ main p{
 
 
 /*Koden nedanför ska vara för ipad. */
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 600px) {
 
     /* Den här css koden ligger för saker som är större än iphone 14. 
     Alltså allt som överstiger det som ligger utanför den här koden och har skärmen större än 390px kommer,
@@ -126,7 +126,7 @@ main p{
     */
     
 }
-@media screen and (min-width: 834px){
+@media screen and (min-width: 1200px){
 
 
     /* Det här är för desktop*/
