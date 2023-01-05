@@ -130,6 +130,32 @@ main p{
     resize: vertical;
 
 }
+.standard-room{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.standard-room img{
+    width: 100%;
+}
+.standard-room table,th,tr, td{
+    background-color: rgba(17, 16, 16, 0.24);
+    color: white;
+    border: 2px solid white;
+}
+.standard-room p{
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgba(17, 16, 16, 0.685);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
 
 
 
