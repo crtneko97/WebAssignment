@@ -115,6 +115,22 @@ main p{
 .test-home{
     height: 200px;
 }
+.contact-container{
+    border-radius: 5px;
+    padding: 20px;
+}
+.contact-container input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
 
 
 /*Koden nedanför ska vara för ipad. */
@@ -127,8 +143,7 @@ main p{
     
 }
 @media screen and (min-width: 1200px){
-
-
+    
     /* Det här är för desktop*/
 
 }
