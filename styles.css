@@ -169,8 +169,6 @@ main p{
     transition: 0.5s;
 }
 
-
-
 /*Koden nedanför ska vara för ipad. */
 @media screen and (min-width: 600px) {
 
