@@ -168,6 +168,44 @@ main p{
     font-size: 50px;
     transition: 0.5s;
 }
+.business-room{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.business-room img{
+    width: 100%;
+}
+.business-room table,th,tr, td{
+    background-color: rgba(17, 16, 16, 0.24);
+    color: white;
+    border: 2px solid white;
+}
+.business-room p{
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgba(17, 16, 16, 0.685);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.business-room input{
+        font-family: 'Special Elite', cursive;
+        background-color: black;
+        color: white;
+        font-size: 25px;
+        border-radius: 5px;
+}
+.business-room input:hover{
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    transition: 0.5s;
+}
 
 /*Koden nedanför ska vara för ipad. */
 @media screen and (min-width: 600px) {
