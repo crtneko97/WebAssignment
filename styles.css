@@ -42,7 +42,7 @@ body{
 .dropdown-content{
     font-family: 'Special Elite', cursive;
     display: none;
-    position: absolute;
+    position: flex;
     background-color: black;
     min-width: 250px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
@@ -282,17 +282,4 @@ main p{
     font-size: 50px;
     transition: 0.5s;
 }
-/*Koden nedanför ska vara för ipad. */
-@media screen and (min-width: 600px) {
-
-    /* Den här css koden ligger för saker som är större än iphone 14. 
-    Alltså allt som överstiger det som ligger utanför den här koden och har skärmen större än 390px kommer,
-    ändras till det.
-    */
     
-}
-@media screen and (min-width: 1200px){
-    
-    /* Det här är för desktop*/
-
-}
